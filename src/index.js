@@ -1,4 +1,8 @@
 import $ from 'jquery';
+import store from './store';
+import shoppingList from './shopping-list';
+import api from './api';
+import './index.css';
 
 function main() {
   console.log('DOM is loaded');
@@ -30,7 +34,7 @@ function main() {
 
  $(document).ready(function() {
   shoppingList.bindEventListeners();
-
+console.log('I am binding event listeners');
   // On initial load, fetch Shopping Items and render
   api.getItems()
     .then((items) => {

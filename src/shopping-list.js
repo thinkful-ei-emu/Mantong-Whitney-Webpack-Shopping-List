@@ -1,8 +1,8 @@
 'use strict';
 /* global store, api, $ */
 
-// eslint-disable-next-line no-unused-vars
-const shoppingList = (function(){
+ //eslint-disable-next-line no-unused-vars
+// const shoppingList = (function(){
 
   function generateError(message) {
     return `
@@ -201,8 +201,8 @@ const shoppingList = (function(){
   }
 
   // This object contains the only exposed methods from this module:
-  return {
+  export default {
     render: render,
     bindEventListeners: bindEventListeners,
   };
-}());
+// }());
