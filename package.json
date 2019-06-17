@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/thinkful-ei-emu/Mantong-Whitney-Webpack-Shopping-List/issues"
   },
-  "homepage": "https://github.com/thinkful-ei-emu/Mantong-Whitney-Webpack-Shopping-List#readme"
+  "homepage": "https://github.com/thinkful-ei-emu/Mantong-Whitney-Webpack-Shopping-List#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
